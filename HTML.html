@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>
+            PasswordBuddy
+        </title>
+        <link rel="stylesheet" href="./CSS.css">
+       
+    </head>
+    <body>
+        <h1>Welcome to PasswordBuddy!</h1>
+        <div class="container">
+            <h2> PasswordBuddy</h2>
+            <div class="inputBox">
+                <input type="password" placeholder="Password" id="MakePassword"> 
+                <div class="show"></div>
+            </div>
+            <div class="StrengthMeter"></div>
+            <ol>
+                <h3><strong>How to create a strong password:</strong></h3>
+                <li id="length" class="invalid">At least 8 characters</li>
+                <li id="capital" class="invalid">At least 1 capital letter</li>
+                <li id="lowercase" class="invalid">At least 1 lowercase letter</li>
+                <li id="number" class="invalid">At least 1 number</li>
+                <li id="special" class="invalid">At least 1 special character (optional)</li>
+            </ol>
+            <button id="generatePassword">Generate Strong Password</button>
+            <button id="copyPassword">Copy Password</button>
+            <button id="clearPassword">Clear</button>
+
+        </div>
+
+        <script src="./JavaScript.jsx"></script>
+
+
+    </body>
+
+</html>

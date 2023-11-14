@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  background: #174384;
+  margin-top: -80px;
+}
+h1 {
+  margin-bottom: 520px;
+  position: absolute;
+  font-size:60px;
+  color: #fff;
+}
+h3 {
+  color: #fff;
+}
+
+.container{
+    position: relative;
+    width: 480px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-right: 0%;
+    background: #092147;
+    flex-direction: column;
+    border-radius: 1px solid #111;
+    gap: 10px;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    padding-bottom: 50px;
+    /*below 0px;
+    /* padding-bottom: 70px;
+    linear-gradient:(transparent, transparent, #0005); */
+
+}
+li{
+  color: #fff;
+  margin-left: 15px;
+}
+
+.container h2{
+    color: #666;
+   
+    font-weight: 600;
+    
+}
+.container button{
+  background: #90AAD6;
+}
+
+.container .inputBox{
+    position: relative;
+    width: 100%;
+}
+
+.container .inputBox input{
+    position: relative;
+    width: 100%;
+    background: #222;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.container .StrengthMeter{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    
+    background: #222;
+    
+}
+
+.container .StrengthMeter::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    
+    background: #f00;
+    
+    transition: 0.5s;
+    
+}
+
+.container.weak .StrengthMeter::before {
+  width: 10%;
+ 
+  background: #f00;
+  filter: drop-shadow(0 0 5px #18e605) drop-shadow(0 0 10px #18e605) drop-shadow(0 0 20px #18e605);
+
+  
+}
+
+.container.moderate .StrengthMeter::before {
+  width: 70%;
+  background: #eedc3d;
+  filter: drop-shadow(0 0 5px #eedc3d) drop-shadow(0 0 10px #eedc3d) drop-shadow(0 0 20px #eedc3d);
+
+
+}
+
+.container.strong .StrengthMeter::before {
+  width: 100%;
+  background: #0f0;
+  filter: drop-shadow(0 0 5px #0f0) drop-shadow(0 0 10px #0f0) drop-shadow(0 0 20px #0f0);
+
+}
+
+.container .StrengthMeter::after {
+  position: absolute;
+  top: -45px;
+  left: 30px;
+  transition: 0.5s;
+  color: aliceblue;
+}
+
+.container.container.weak .StrengthMeter::after {
+  content: "Weak password";
+  color: #f00;
+  filter: drop-shadow(0 0 5px#f00);
+  
+}
+
+.container.container.moderate .StrengthMeter::after {
+  content: "Moderate password";
+  color: #eedc3d;
+  filter: drop-shadow(0 0 5px #eedc3d);
+}
+
+.container.container.strong .StrengthMeter::after {
+  content: "Strong password";
+  color: #0f0;
+  filter: drop-shadow(0 0 5px #0f0);
+}
+
+.show{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 60px;
+  background: #333;
+  border: 10px solid #222;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.show::before{
+  content: "Show";
+  color: aliceblue;
+  font-size: 0.6em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  
+}
+
+.show.hide::before{
+  content: "Hide";
+}
+
+@media (max-width: 768px) {
+  .container{
+    margin-top: 200px;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+  }
+  h1{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 115px;
+    font-size: 38px;
+  }
+  
+}
+
+@media (max-width: 375px){
+ 
+  h1{
+    margin-left: 28px;
+    margin-top: 91px;
+    font-size: 35px;
+  }
+
+}
+
+
+
+
+@media (max-width: 320px){
+  body{
+    margin-top: -70px;
+  }
+
+  h1{
+    font-size: 32px;
+    margin-left: 18px;
+  }
+
+}
+
+
+
+
+
+ 

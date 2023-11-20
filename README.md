@@ -22,8 +22,8 @@
   <table>
     <tbody>
       <tr>
-        <td align="center"><img src="https://github.com/jr80861n/CS374-Final/blob/main/mockrocket-export.gif" alt="Mockrocket" width="425"></td>
-        <td align="center"><img src="https://github.com/jr80861n/CS374-Final/blob/main/mockrocket2-export.gif" alt="Mockrocket2" width="425"></td>
+        <td align="center"><img src="" alt="Mockrocket" width="425"></td>
+        <td align="center"><img src="" alt="Mockrocket2" width="425"></td>
       </tr>
     </tbody>
   </table>

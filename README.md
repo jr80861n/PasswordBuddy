@@ -22,8 +22,8 @@
   <table>
     <tbody>
       <tr>
-        <td align="center"><img src="" alt="Mockrocket" width="425"></td>
-        <td align="center"><img src="" alt="Mockrocket2" width="425"></td>
+        <td align="center"><img src="" alt="Picture 1" width="425"></td>
+        <td align="center"><img src="" alt="Picture 2" width="425"></td>
       </tr>
     </tbody>
   </table>

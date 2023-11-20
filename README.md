@@ -1,9 +1,7 @@
-# PasswordBuddy
-A password generator and a strength meter if you choose to make your own password.
 ## App Name
 <h3 style= "font-size: 2rem; font-weight: bold;">PasswordBuddy</h3>
 <br>
-<img src="" alt="BudgetBites" class="logo">
+<img src="" alt="PasswordBuddy" class="logo">
 
 ## Team Members
 <p align="center">
@@ -18,3 +16,54 @@ A password generator and a strength meter if you choose to make your own passwor
 
 ## App Description 
 <p>PasswordBuddy will help you create strong passwords that are not common and hard for hackers to get it.</p>
+
+## Design
+<p align="center">
+  <table>
+    <tbody>
+      <tr>
+        <td align="center"><img src="https://github.com/jr80861n/CS374-Final/blob/main/mockrocket-export.gif" alt="Mockrocket" width="425"></td>
+        <td align="center"><img src="https://github.com/jr80861n/CS374-Final/blob/main/mockrocket2-export.gif" alt="Mockrocket2" width="425"></td>
+      </tr>
+    </tbody>
+  </table>
+</p>
+
+## Tools & APIs
+
+  <br>
+<p align="left">
+  
+<a href="" alt="Firebase">
+        <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" />   
+    </a>
+   
+<a href="" alt="Discord">
+        <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" />   
+    </a>
+    
+<a href="" alt="Android Studio">
+        <img src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white" />
+    </a>
+    
+<a href="" alt="GitHub">
+        <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />   
+    </a>
+
+<a href="" alt="Git">
+        <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />   
+    </a>
+
+<a href="" alt="Gradle">
+        <img src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" />   
+    </a>
+    
+<a href="" alt="Zoom">
+        <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white" />   
+    </a>
+    
+<a href="" alt="Google">
+        <img src="https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white" />   
+    </a>
+
+</p>

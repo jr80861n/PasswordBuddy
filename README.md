@@ -1,7 +1,7 @@
 ## App Name
 <h3 style= "font-size: 2rem; font-weight: bold;">PasswordBuddy</h3>
 <br>
-<img src="" alt="PasswordBuddy" class="logo">
+
 
 ## Team Members
 <p align="center">
